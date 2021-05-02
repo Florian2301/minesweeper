@@ -1,0 +1,10 @@
+
+<app-select (rowClicked)="rowTable($event)" (colClicked)="colTable($event)"></app-select>
+
+<div class="container table">
+    <div class="row" *ngFor="let ro of rows">
+        <div class="col-sm" *ngFor="let col of cols" id="col{{ro}}{{col}}">
+            
+        </div>
+    </div>
+</div>

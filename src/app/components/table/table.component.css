@@ -1,0 +1,41 @@
+.table {
+  margin-top: 1rem;
+}
+
+.col-sm {
+  padding: 10px;
+  max-width: 1rem;
+  border: solid 1px black;
+  border-radius: 5px;
+  margin: 3px;
+}
+
+.col-sm:nth-child(1) {
+  background-color: red;
+}
+
+#col12,
+#col13,
+#col14,
+#col15,
+#col16,
+#col17,
+#col18,
+#col19,
+#col110,
+#col23,
+#col25,
+#col27,
+#col29,
+#col34,
+#col37,
+#col310,
+#col45,
+#col49,
+#col56,
+#col67,
+#col78,
+#col89,
+#col910 {
+  background-color: red;
+}

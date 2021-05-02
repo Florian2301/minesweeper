@@ -1,0 +1,13 @@
+<div class="container">
+    <label>select rows:</label>
+    <select class="form-select-padding-y-sm" aria-label="Default select example">
+        <option *ngFor="let ro of rows" (click)="onClickRow(ro)">{{ ro }}</option>
+    </select>
+
+    <label>select columns:</label>
+    <select class="form-select-padding-y-sm" aria-label="Default select example">
+        <option *ngFor="let col of cols" (click)="onClickCol(col)">{{ col }}</option>
+    </select>
+</div>
+
+
